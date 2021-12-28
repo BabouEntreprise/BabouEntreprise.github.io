@@ -55,6 +55,12 @@ h3
     font-size: 35px;
     font-family: "Title";
 }
+.title4
+{
+    text-align: center;
+    font-size: 35px;
+    font-family: "Title";
+}
 .text1
 {
     height: 100px;
@@ -97,6 +103,27 @@ h3
 {
     border-bottom: 8px solid white;
     height: 25px;
+}
+.staff
+{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    font-family: "text1";
+    text-decoration: underline;
+}
+.description-staff
+{
+    text-decoration: none;
+    font-family: "text1";
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.staffmain
+{
+    display: flex;
+    flex-direction: column;
 }
 #up
 {
