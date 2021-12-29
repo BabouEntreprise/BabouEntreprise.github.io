@@ -124,6 +124,16 @@ h3
 {
     /* Coming soon */
 }
+.img1
+{
+    text-align: center;
+    width: 480px;
+    height: 270px;
+}
+.nftl
+{
+    color: red;
+}
 #up
 {
     display: flex;
