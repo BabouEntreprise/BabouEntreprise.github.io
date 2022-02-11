@@ -144,7 +144,7 @@ h3
 .nftlist
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
 }
 #up
 {
