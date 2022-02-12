@@ -1,154 +1,119 @@
-@font-face {
-    font-family: "Title";
-    src: url(fonts/SeratUltra-1GE24.ttf);
-}
-@font-face {
-    font-family: "text1";
-    src: url(fonts/IniyaDisplay-ow0Ra.otf);
-}
-*
-{
-    color: white;
-}
 body
 {
-    background-image: url(images/menu_background.jpeg);
-    background-attachment: fixed;
+    background-color: #494949;
 }
-h1
-{
-    font-size: 50px;
+@font-face {
+    font-family: 'title';
+    src: url(fonts/Roboto-Bold.ttf);
 }
-h3
-{
-    font-size: 30px;
+@font-face {
+    font-family: 'text';
+    src: url(fonts/Roboto-Thin.ttf);
 }
-.titlemain
-{
-    font-size: 50px;
-    text-align: center;
-    font-family: "Title";
-}
-.title1
-{
-    text-align: center;
-    width: 800px;
-    font-size: 35px;
-    font-family: "Title";
-}
-.title2
-{
-    text-align: right;
-    width: 1600px;
-    font-size: 35px;
-    font-family: "Title";
-}
-.title21
-{
-    text-align: right;
-    font-size: 35px;
-    font-family: "Title";
-}
-.title3
-{
-    text-align: center;
-    font-size: 35px;
-    font-family: "Title";
-}
-.title4
-{
-    text-align: center;
-    font-size: 35px;
-    font-family: "Title";
-}
-.text1
-{
-    height: 100px;
-    font-size: 25px;
-    text-align: center;
-    font-family: "text1";
-}
-.text2
-{
-    color: aqua;
-    font-size: 25px;
-    text-align: center;
-    font-family: "text1";
-}
-.text21
-{
-    text-decoration: underline;
-    font-size: 25px;
-    text-align: center;
-    font-family: "text1";
-}
-.text22
-{
-    text-align: center;
-    font-size: 20px;
-    font-family: "text1";
-}
-.text3
-{
-    font-size: 25px;
-    text-align: left;
-    font-family: "text1";
-}
-.text4
-{
-    font-size: 25px;
-    text-align: right;
-    font-family: "text1";
-}
-.menu
-{
-    width: 50px;
-    height: auto;
-}
-.separator
-{
-    border-bottom: 8px solid white;
-    height: 25px;
-}
-.staff
+.title
 {
     display: flex;
-    justify-content: space-around;
-    font-size: 25px;
-    font-family: "text1";
+    justify-content: center;
+    font-family: 'title';
+    font-size: 38px;
     text-decoration: underline;
+    color: white;
 }
-.description-staff
+.atitle
 {
-    text-decoration: none;
-    font-family: "text1";
-    font-size: 25px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    font-family: 'title';
+    font-size: 32px;
+    text-decoration: underline;
+    color: white;
 }
-.staffmain
+.ftitle
 {
-    /* Coming soon */
+    display: flex;
+    justify-content: center;
+    font-family: 'title';
+    font-size: 32px;
+    text-decoration: underline;
+    color: white;
 }
-.img1
+.text
 {
-    text-align: center;
-    width: 480px;
-    height: 270px;
+    display: flex;
+    justify-content: center;
+    font-family: 'text';
+    font-size: 28px;
+    color: white;
 }
-.nftl
+.atext
 {
-    text-decoration: line-through;
+    display: flex;
+    justify-content: center;
+    font-family: 'text';
+    font-size: 23px;
+    color: white;
+}
+.ftext
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'text';
+    font-size: 23px;
+    color: white;
+}
+.ftextb
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'text';
+    font-size: 23px;
     color: red;
 }
-.nftlist
+.ftextc
 {
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    font-family: 'text';
+    font-size: 23px;
+    color: cadetblue;
 }
-#up
+.ftexte
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'text';
+    font-size: 23px;
+    color: greenyellow;
+}
+.links
 {
     display: flex;
     justify-content: space-around;
-    font-size: 20px;
+}
+.ilinks
+{
+    height: 100px;
+    width: 100px;
+}
+.articles
+{
+    display: flex;
+    justify-content: space-around;
+}
+.alert
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'text';
+    font-size: 23px;
+    color: red;
+}
+.sep
+{
+    margin: 15px;
+}
+#list
+{
+    display: flex;
+    justify-content: center;
 }
