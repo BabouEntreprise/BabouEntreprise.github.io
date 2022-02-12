@@ -19,6 +19,15 @@ body
     text-decoration: underline;
     color: white;
 }
+.titlew
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'title';
+    font-size: 38px;
+    text-decoration: underline;
+    color: red;
+}
 .atitle
 {
     display: flex;
@@ -112,7 +121,7 @@ body
 {
     margin: 15px;
 }
-#list
+.list
 {
     display: flex;
     justify-content: center;
