@@ -146,6 +146,17 @@ body
     display: flex;
     justify-content: center;
 }
+.wimg
+{
+    margin: 100px;
+    height: 255px;
+    width: 255px;
+    transform: rotateX() rotateZ() ;
+    transition: all 5000ms;
+}
+.wimg:hover {
+    transform: rotateX(360deg) rotateZ(360deg);
+}
 /* Animations */
 .comed
 {
