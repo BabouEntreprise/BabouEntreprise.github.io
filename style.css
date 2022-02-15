@@ -1,5 +1,6 @@
 body
 {
+    background-image: url("images/background/background.png");
     background-color: #494949;
 }
 @font-face {
@@ -141,7 +142,16 @@ body
 {
     margin: 15px;
 }
+.sepw
+{
+    margin: 200px;
+}
 .list
+{
+    display: flex;
+    justify-content: center;
+}
+.listc
 {
     display: flex;
     justify-content: center;
