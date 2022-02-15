@@ -8,9 +8,17 @@
     <body>
         <div class="comet">
             <header>
-                <h1 class="title">Welcome to the Babou Coin page</h1>
+                <div class="links">
+                    <a href="mailto:babouentreprise@gmail.com"><img class="ilinks" src="../../images/icons/gmail.png" alt="gmail"></a>
+                    <h1 class="title">Welcome to the Babou Coin page</h1>
+                    <input class="ilinks" id="enableEthereumButton" type="image" src="../../images/icons/metamask.png">
+                </div>
             </header>
             <main>
+                <div>
+                    <h3 class="atitler">Account</h3>
+                    <h2 class="atext"><span class="walleta" id="showAccount"></span></h2>
+                </div>
                 <h3 class="atitle">What is the Babou Coin?</h3>
                 <p class="atext">This is the official cryptocurrency of Babou Entrerprise</p>
                 <p class="atext">It was created to promote the corporation</p>
@@ -30,5 +38,19 @@
                 </div>
             </div>
         </article>
+        <script>
+            const ethereumButton = document.querySelector('#enableEthereumButton');
+            const showAccount = document.querySelector('#showAccount');
+
+            ethereumButton.addEventListener('click', () => {
+                getAccount();
+            });
+
+            async function getAccount() {
+                const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+                const account = accounts[0];
+                showAccount.innerHTML = account;
+            }
+        </script>
     </body>
 </html>
