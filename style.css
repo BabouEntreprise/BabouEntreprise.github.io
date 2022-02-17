@@ -2,6 +2,7 @@ body
 {
     background-image: url("images/background/background.png");
     background-color: #494949;
+    background-attachment: fixed;
 }
 @font-face {
     font-family: 'title';
@@ -192,6 +193,17 @@ body
     font-size: 15px;
     color: white;
     margin-left: 1450px;
+}
+.profit-c
+{
+    display: flex;
+    justify-content: center;
+}
+.profit
+{
+    height: 500px;
+    width: 350px;
+    border: 0px;
 }
 /* Animations */
 .comed
